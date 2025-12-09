@@ -1,0 +1,13 @@
+{
+  "name": "personal-portfolio",
+  "version": "1.0.0",
+  "description": "Personal Portfolio Website",
+  "scripts": {
+    "build": "echo 'Building static site' && mkdir -p public && cp index.html public/index.html && cp -r assets public/",
+    "dev": "echo 'Open index.html in browser'"
+  },
+  "devDependencies": {},
+  "keywords": ["portfolio", "personal"],
+  "author": "Sabbir Hossain",
+  "license": "MIT"
+}
